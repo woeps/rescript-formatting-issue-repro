@@ -17,3 +17,11 @@ let g = (x: string) => {
 //   }: T
 //   x->M.f
 // }
+//
+//  I'd expect the code to stay untouched / in valid syntax:
+// let g = (x: string) => {
+//   module M: T = {
+//     let f = s => s ++ s
+//   }
+//   x->M.f
+// }
