@@ -1,6 +1,6 @@
 # Rescript formatting issue repro
 
-Rescript's (auto-) formatting of modules with explicitly annotated type inside a function yields syntacticly incorrect result.
+Rescript's (auto-) formatting of modules with explicitly annotated type inside a function yields syntactically incorrect result.
 
 This repository is a simple reproduction of the issue:
 
